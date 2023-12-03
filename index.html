@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Дизайн інтер'єру</title>
+    
+    <link rel="icon" href="media/house.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>CreaDes - дизайн інтер'єру</h1>
+            <div class="containers">
+                <nav class="nav">
+
+                    <div class="search-container">
+                        <input class="inp-search" type="text" placeholder="Search...">
+                        <button type="submit" class="submit-btn">Find</button>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a class="nav-list-link" href="index.html">Головна</a></li>
+                        <li><a class="nav-list-link" href="aboutus.html">Про нас</a></li>
+                        <li><a class="nav-list-link" href="portfolio.html">Портфоліо</a></li>
+                        <li><a class="nav-list-link" href="registration.html">Реєстрація</a></li>
+                        <li><button type="button" class="btn btn-primary btn-style" data-bs-toggle="modal"
+                            data-bs-target="#exampleModalCenter">
+                            Sign in
+                        </button></li>
+                    </ul>
+
+                    <div class="dropdowns">
+                        <button class="dropbtn">Для вас
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Опитування</a>
+                            <a href="#">Відгуки</a>
+                            <a href="#">Часті запитання</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Меню
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Головна</a></li>
+                            <li><a class="dropdown-item" href="aboutus.html">Про нас</a></li>
+                            <li><a class="dropdown-item" href="portfolio.html">Портфоліо</a></li>
+                            <li><a class="dropdown-item" href="registration.html">Реєстрація</a></li>
+                            <li><button type="button" class="btn btn-primary dropdown-item" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModalCenter">
+                                    Sign in
+                                </button></li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="section">
+                <div class="modal fade shows" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-modal="true" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalCenterTitle">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                              </form>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="containers">
+                        <h2>Вітаємо на нашому сайті</h2>
+                        <p>Ми - потужна команда CreaDes, яка працює разом, щоб перетворити ваші ідеї у реальність.
+                            Наша група професіоналів об'єднує досвід, талант та креативність, щоб створювати
+                            унікальні інтер'єри, які відображають ваш стиль та вимоги</p>
+                        <div id="images">
+                            <div class="img-out">
+                                <img src="media/main_image.jpg" alt="Зображення">
+                                <div class="hidden-text">Проект</div>
+                                <div class="img-btn"><a class="link-out" target=”_blank” href="portfolio.html">Дізнатися
+                                        більше</a></div>
+
+                            </div>
+                            <div class="img-out">
+                                <img src="media/home.jpeg" alt="Зображення">
+                                <div class="hidden-text">Проект</div>
+                                <div class="img-btn"><a class="link-out" target=”_blank” href="portfolio.html">Дізнатися
+                                        більше</a></div>
+
+                            </div>
+                            <div class="img-out">
+                                <img src="media/home1.jpg" alt="Зображення">
+                                <div class="hidden-text">Проект</div>
+                                <div class="img-btn"><a class="link-out" target=”_blank” href="portfolio.html">Дізнатися
+                                        більше</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <button id="scrollButton" onclick="scrollToTop()">&#8657;</button>
+        <footer>
+            <div class="content-footer">
+                <h2>Контакти</h2>
+                <p>Зв'яжіться з нами за адресою: example@email.com</p>
+                <p>Телефон: +1234567890</p>
+                <p>Адреса: вул. Вулична, 123</p>
+                <p>&copy; 2023 Дизайн інтер'єру</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        var scrollButton = document.getElementById("scrollButton");
+
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollButton.style.display = "block";
+            } else {
+                scrollButton.style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
